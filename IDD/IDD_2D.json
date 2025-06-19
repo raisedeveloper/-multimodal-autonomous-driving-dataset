@@ -1,0 +1,37 @@
+// 이미지 내 객체(차, 사람 등)를 사각형 좌표 [x, y, width, height]로 정의하며, 각 객체는 클래스 라벨과 신뢰도(score)를 포함
+// 개별 객체 중심의 탐지 방식으로, 픽셀 단위가 아닌 영역(box) 단위로 빠르게 위치와 종류를 식별
+[
+  {
+    "image_id": "idd_000001.jpg",
+    "objects": [
+      { "class": "car", "bbox": [120, 200, 60, 40], "score": 0.98 },
+      { "class": "bus", "bbox": [300, 180, 90, 50], "score": 0.93 }
+    ]
+  },
+  {
+    "image_id": "idd_000002.jpg",
+    "objects": [
+      { "class": "person", "bbox": [400, 220, 30, 70], "score": 0.91 }
+    ]
+  },
+  {
+    "image_id": "idd_000003.jpg",
+    "objects": [
+      { "class": "truck", "bbox": [100, 160, 120, 60], "score": 0.88 },
+      { "class": "car", "bbox": [250, 170, 70, 40], "score": 0.90 }
+    ]
+  },
+  {
+    "image_id": "idd_000004.jpg",
+    "objects": [
+      { "class": "motorcycle", "bbox": [220, 250, 50, 30], "score": 0.89 }
+    ]
+  },
+  {
+    "image_id": "idd_000005.jpg",
+    "objects": [
+      { "class": "bicycle", "bbox": [150, 210, 40, 35], "score": 0.87 },
+      { "class": "person", "bbox": [180, 220, 28, 65], "score": 0.92 }
+    ]
+  }
+]

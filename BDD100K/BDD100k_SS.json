@@ -1,0 +1,93 @@
+// image와 label 파일명, 해상도 정보, 그리고 해당 이미지에 등장하는 주요 클래스를 포함하고 있어 BDD100K의 SS 태스크에서 자주 사용하는 형식
+// 픽셀 단위 클래스 라벨 포함 (예: 도로, 차량, 사람 등)
+
+// Object Detection, Semantic Segmentation, Lane Detection, vable Area Segmentation
+// 이 외에도 Instance Segmentation, Multi-Object Tracking (MOT), Image Tagging (날씨/시간대 분류)
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/bdd100k-dataset/resource/4916c4d9-4466-421a-8a7c-161c26010766
+
+{
+  "dcterms:title": "BDD100K Dataset",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Yu F",
+    "Xian W",
+    "Chen Y",
+    "Liao M",
+    "Madhavan V",
+    "Darrell T"
+  ],
+  "dcterms:description": "BDD100K Dataset is a large-scale dataset for autonomous driving, containing 100,000 images, with 20,000 images for training and 80,000 images for testing.",
+  "dcterms:issued": "2018",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://ai.stanford.edu/~yu/freeway/BDD100K/",
+  "dcat:theme": [
+    "Video Analysis",
+    "Autonomous Driving",
+    "Driving Scene Understanding",
+    "Image Segmentation"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "Object Detection",
+    "image segmentation",
+    "Driving Scenes",
+    "Video Analysis",
+    "autonomous driving",
+    "3D scene understanding"
+  ],
+  "dcat:landingPage": "https://ai.stanford.edu/~yu/freeway/BDD100K/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Video",
+  "mls:task": [
+    "Video Analysis",
+    "Object Detection",
+    "Image Segmentation",
+    "3D Scene Understanding"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2207.03870"
+  ]
+}
+
+
+// 목데이터 - mock data (sample data)
+[
+  {
+    "image": "100000_2100.png",
+    "label": "100000_2100_seg.png",
+    "height": 720,
+    "width": 1280,
+    "classes": ["road", "sidewalk", "building", "car", "person"]
+  },
+  {
+    "image": "100001_2100.png",
+    "label": "100001_2100_seg.png",
+    "height": 720,
+    "width": 1280,
+    "classes": ["road", "sky", "vegetation", "traffic light"]
+  },
+  {
+    "image": "100002_2100.png",
+    "label": "100002_2100_seg.png",
+    "height": 720,
+    "width": 1280,
+    "classes": ["road", "sidewalk", "building", "car", "traffic sign"]
+  },
+  {
+    "image": "100003_2100.png",
+    "label": "100003_2100_seg.png",
+    "height": 720,
+    "width": 1280,
+    "classes": ["road", "bike lane", "pole", "car"]
+  },
+  {
+    "image": "100004_2100.png",
+    "label": "100004_2100_seg.png",
+    "height": 720,
+    "width": 1280,
+    "classes": ["road", "fence", "vegetation", "bus", "person"]
+  }
+]

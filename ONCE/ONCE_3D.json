@@ -1,0 +1,39 @@
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/one-million-scenes-for-autonomous-driving--once-/resource/51c92e46-9ada-47e4-8cc7-b807ca71804a
+{
+  "dcterms:title": "One Million Scenes for Autonomous Driving (ONCE)",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Chen Min",
+    "Liang Xiao",
+    "Dawei Zhao",
+    "Yiming Nie",
+    "Bin Dai"
+  ],
+  "dcterms:description": "The ONCE dataset comprises 1 million LiDAR scenes and 7 million corresponding camera images.",
+  "dcterms:issued": "2021",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://github.com/chaytonmin/Occupancy-MAE",
+  "dcat:theme": [
+    "Autonomous Driving",
+    "3D Perception"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "LiDAR",
+    "Autonomous Driving",
+    "3D Point Clouds"
+  ],
+  "dcat:landingPage": "https://github.com/chaytonmin/Occupancy-MAE",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "LiDAR Point Clouds",
+  "mls:task": [
+    "Multi-Object Tracking",
+    "3D Object Detection",
+    "3D Semantic Segmentation"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2206.09900"
+  ]
+}

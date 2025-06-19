@@ -1,0 +1,67 @@
+[
+  {
+    "image_id": "cirrus_000001.jpg",
+    "segments": [
+      {
+        "class_id": 0,
+        "class_name": "road",
+        "polygon": [[100, 600], [300, 600], [300, 700], [100, 700]]
+      },
+      {
+        "class_id": 1,
+        "class_name": "sidewalk",
+        "polygon": [[50, 580], [100, 580], [100, 600], [50, 600]]
+      }
+    ]
+  },
+  {
+    "image_id": "cirrus_000002.jpg",
+    "segments": [
+      {
+        "class_id": 2,
+        "class_name": "building",
+        "polygon": [[400, 200], [600, 200], [600, 500], [400, 500]]
+      }
+    ]
+  },
+  {
+    "image_id": "cirrus_000003.jpg",
+    "segments": [
+      {
+        "class_id": 3,
+        "class_name": "car",
+        "polygon": [[250, 400], [300, 400], [300, 450], [250, 450]]
+      },
+      {
+        "class_id": 4,
+        "class_name": "pedestrian",
+        "polygon": [[310, 420], [320, 420], [320, 450], [310, 450]]
+      }
+    ]
+  },
+  {
+    "image_id": "cirrus_000004.jpg",
+    "segments": [
+      {
+        "class_id": 5,
+        "class_name": "traffic_sign",
+        "polygon": [[700, 300], [710, 300], [710, 310], [700, 310]]
+      }
+    ]
+  },
+  {
+    "image_id": "cirrus_000005.jpg",
+    "segments": [
+      {
+        "class_id": 6,
+        "class_name": "vegetation",
+        "polygon": [[50, 50], [150, 50], [150, 150], [50, 150]]
+      },
+      {
+        "class_id": 7,
+        "class_name": "sky",
+        "polygon": [[0, 0], [800, 0], [800, 200], [0, 200]]
+      }
+    ]
+  }
+]

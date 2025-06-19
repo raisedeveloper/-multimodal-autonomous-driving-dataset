@@ -1,0 +1,32 @@
+//  이미지 파일, 해당 세그멘테이션 마스크 파일, 그리고 이미지에 등장하는 클래스 정보를 포함
+// Waymo 2D Semantic Segmentation
+
+// 목데이터 - mock data (sample data)
+
+[
+  {
+    "image_id": "waymo_seg_0001.png",
+    "mask_id": "waymo_seg_0001_mask.png",
+    "classes": ["road", "vehicle", "pedestrian"]
+  },
+  {
+    "image_id": "waymo_seg_0002.png",
+    "mask_id": "waymo_seg_0002_mask.png",
+    "classes": ["road", "vehicle", "cyclist"]
+  },
+  {
+    "image_id": "waymo_seg_0003.png",
+    "mask_id": "waymo_seg_0003_mask.png",
+    "classes": ["road", "sidewalk", "vehicle"]
+  },
+  {
+    "image_id": "waymo_seg_0004.png",
+    "mask_id": "waymo_seg_0004_mask.png",
+    "classes": ["road", "vehicle", "traffic light"]
+  },
+  {
+    "image_id": "waymo_seg_0005.png",
+    "mask_id": "waymo_seg_0005_mask.png",
+    "classes": ["road", "pedestrian", "cyclist", "pole"]
+  }
+]

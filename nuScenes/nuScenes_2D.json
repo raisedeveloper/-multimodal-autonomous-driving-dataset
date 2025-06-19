@@ -1,0 +1,41 @@
+// Waymo 3D 데이터셋
+// 포맷: "LiDAR point cloud data", 태스크(mls:task): 3D object detection, Autonomous driving
+// 설명: Cross-LiDAR 3D detection dataset
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/waymo/resource/c176107f-616a-46d9-9cb3-3c5b226404e0
+
+{
+  "dcterms:title": "Waymo",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Xidong Peng",
+    "Xinge Zhu",
+    "Yuexin Ma"
+  ],
+  "dcterms:description": "Cross-LiDAR 3D detection dataset",
+  "dcterms:issued": "2020",
+  "dcterms:language": "English",
+  "dcterms:identifier": "",
+  "dcat:theme": [
+    "3D object detection",
+    "Autonomous driving"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "LiDAR",
+    "3D detection",
+    "Autonomous driving"
+  ],
+  "dcat:landingPage": "https://waymo.com/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "LiDAR point cloud data",
+  "mls:task": [
+    "3D object detection",
+    "Autonomous driving"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2212.00244"
+  ]
+}

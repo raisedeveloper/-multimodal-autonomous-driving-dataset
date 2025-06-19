@@ -1,0 +1,74 @@
+[
+  {
+    "frame_id": "cirrus_000001",
+    "timestamp": 1718790023.135,
+    "objects": [
+      {
+        "id": "veh_001",
+        "class_id": 2,
+        "class_name": "car",
+        "translation": [10.5, -3.2, 0.8],
+        "size": [4.2, 1.8, 1.6],
+        "rotation_yaw": 1.5708,
+        "score": 0.92
+      },
+      {
+        "id": "veh_002",
+        "class_id": 4,
+        "class_name": "bus",
+        "translation": [20.0, -5.5, 1.0],
+        "size": [12.0, 2.5, 3.2],
+        "rotation_yaw": -0.5236,
+        "score": 0.88
+      }
+    ]
+  },
+  {
+    "frame_id": "cirrus_000002",
+    "timestamp": 1718790023.235,
+    "objects": [
+      {
+        "id": "ped_001",
+        "class_id": 0,
+        "class_name": "pedestrian",
+        "translation": [5.8, 1.2, 0.0],
+        "size": [0.8, 0.6, 1.7],
+        "rotation_yaw": 3.1416,
+        "score": 0.75
+      },
+      {
+        "id": "cyclist_001",
+        "class_id": 1,
+        "class_name": "bicycle",
+        "translation": [8.5, -1.1, 0.0],
+        "size": [1.7, 0.5, 1.5],
+        "rotation_yaw": 0.0,
+        "score": 0.81
+      }
+    ]
+  },
+  {
+    "frame_id": "cirrus_000003",
+    "timestamp": 1718790023.335,
+    "objects": [
+      {
+        "id": "veh_003",
+        "class_id": 5,
+        "class_name": "truck",
+        "translation": [15.3, 6.2, 1.1],
+        "size": [6.8, 2.6, 2.9],
+        "rotation_yaw": -1.5708,
+        "score": 0.89
+      },
+      {
+        "id": "sign_001",
+        "class_id": 6,
+        "class_name": "traffic_sign",
+        "translation": [25.0, -0.8, 2.2],
+        "size": [0.5, 0.1, 0.7],
+        "rotation_yaw": 1.0,
+        "score": 0.67
+      }
+    ]
+  }
+]

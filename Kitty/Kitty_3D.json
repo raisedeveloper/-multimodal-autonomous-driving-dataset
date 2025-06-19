@@ -1,0 +1,42 @@
+// LiDAR 기반의 3D Object Detection을 위한 KITTI 3D Dataset
+// 자율주행 분야에서 가장 널리 사용되는 3D 탐지 벤치마크 중 하나
+
+// 참고 사이트 : https://mmdetection3d.readthedocs.io/en/v0.17.3/datasets/kitti_det.html
+
+{
+  "dcterms:title": "KITTI 3D Dataset",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Xueying Jiang",
+    "Sheng Jin",
+    "Lewei Lu",
+    "Xiaoqin Zhang",
+    "Shijian Lu"
+  ],
+  "dcterms:description": "The KITTI 3D dataset consists of 7,481 images for training and 7,518 images for testing. The labels of the train set are publicly available and the labels of the test set are stored on a test server for evaluation.",
+  "dcterms:issued": "2012",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://www.kitti-website.org/datasets.php",
+  "dcat:theme": [
+    "Autonomous Driving",
+    "Computer Vision"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "KITTI",
+    "3D Object Detection",
+    "Autonomous Driving"
+  ],
+  "dcat:landingPage": "https://www.kitti-website.org/datasets.php",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Image",
+  "mls:task": [
+    "3D Object Detection",
+    "Autonomous Driving"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2402.19144"
+  ]
+}

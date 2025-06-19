@@ -1,0 +1,88 @@
+[
+  {
+    "type": "2D bounding boxes",
+    "boxes": [
+      {
+        "x": 54.8,
+        "y": 95.53,
+        "width": 37.87,
+        "height": 40.53,
+        "class": "unknown",
+        "score": 0.6
+      },
+      {
+        "x": 54.8,
+        "y": 95.53,
+        "width": 37.87,
+        "height": 40.53,
+        "class": "unknown",
+        "score": 1.0
+      }
+    ],
+    "version": { "major": 1, "minor": 0 }
+  },
+  {
+    "type": "2D bounding boxes",
+    "boxes": [
+      {
+        "x": 120.0,
+        "y": 60.0,
+        "width": 30.0,
+        "height": 45.0,
+        "class": "car",
+        "score": 0.92
+      }
+    ],
+    "version": { "major": 1, "minor": 0 }
+  },
+  {
+    "type": "2D bounding boxes",
+    "boxes": [
+      {
+        "x": 200.5,
+        "y": 110.0,
+        "width": 80.0,
+        "height": 60.0,
+        "class": "pedestrian",
+        "score": 0.83
+      },
+      {
+        "x": 310.0,
+        "y": 130.0,
+        "width": 50.0,
+        "height": 50.0,
+        "class": "bicycle",
+        "score": 0.77
+      }
+    ],
+    "version": { "major": 1, "minor": 0 }
+  },
+  {
+    "type": "2D bounding boxes",
+    "boxes": [
+      {
+        "x": 75.0,
+        "y": 150.0,
+        "width": 25.0,
+        "height": 25.0,
+        "class": "traffic_light",
+        "score": 0.95
+      }
+    ],
+    "version": { "major": 1, "minor": 0 }
+  },
+  {
+    "type": "2D bounding boxes",
+    "boxes": [
+      {
+        "x": 400.0,
+        "y": 80.0,
+        "width": 60.0,
+        "height": 120.0,
+        "class": "truck",
+        "score": 0.89
+      }
+    ],
+    "version": { "major": 1, "minor": 0 }
+  }
+]

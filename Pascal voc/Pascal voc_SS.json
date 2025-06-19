@@ -1,0 +1,148 @@
+// Semantic Segmentation을 포함한 2D 시각 태스크용 데이터셋
+// Segmentation Annotation: 각 픽셀에 클래스 ID를 부여한 PNG 마스크 이미지로 구성
+// 주요 태스크: Semantic Segmentation, Object Detection, Instance Segmentation 등
+// 클래스 수: 20개 객체 클래스 + background
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/pascal-voc/resource/720f8e00-7541-49de-a4b9-1e757b23d4aa
+
+{
+  "dcterms:title": "Pascal VOC",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Mark Everingham",
+    "Luc Van Gool",
+    "Christopher KI Williams",
+    "John Winn",
+    "Andrew Zisserman"
+  ],
+  "dcterms:description": "Semantic segmentation is a crucial and challenging task for image understanding. It aims to predict a dense labeling map for the input image, which assigns each pixel a unique category label.",
+  "dcterms:issued": "2010",
+  "dcterms:language": "English",
+  "dcterms:identifier": "http://host.robots.ox.ac.uk/pascal/VOC/2007/",
+  "dcat:theme": [
+    "Image Classiﬁcation",
+    "Object Detection",
+    "3D Reconstruction",
+    "Semantic Segmentation",
+    "Object Segmentation",
+    "Image Classification",
+    "Instance Segmentation",
+    "Computer Vision",
+    "Semantic Communication",
+    "Image classification",
+    "Image Segmentation",
+    "Object detection"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "object detection",
+    "Instance Segmentation",
+    "image classification",
+    "semantic communication",
+    "instance segmentation",
+    "image transmission",
+    "Image Classification",
+    "image labeling",
+    "Dataset",
+    "Semantic Segmentation",
+    "image segmentation",
+    "20 Classes",
+    "3D reconstruction",
+    "articulated objects",
+    "benchmark",
+    "Pascal VOC",
+    "VOC",
+    "Object Detection",
+    "Image Processing",
+    "semantic segmentation",
+    "Image classification",
+    "Image Segmentation",
+    "Image Dataset",
+    "Object detection",
+    "object segmentation"
+  ],
+  "dcat:landingPage": "https://www.pascal-voc.org/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Image",
+  "mls:task": [
+    "Object Detection",
+    "3D Reconstruction",
+    "Semantic Segmentation",
+    "Object Segmentation",
+    "Image Classification",
+    "Instance Segmentation",
+    "Semantic Communication",
+    "Image classification",
+    "Image Segmentation",
+    "Object detection"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.1903.04688",
+    "10.48550/arXiv.2301.13670",
+    "10.48550/arXiv.2401.04403",
+    "10.48550/arXiv.2310.00527",
+    "10.48550/arXiv.2304.12161",
+    "10.48550/arXiv.2103.15383",
+    "10.48550/arXiv.2211.12739",
+    "10.48550/arXiv.2312.12437",
+    "10.48550/arXiv.1909.12526",
+    "10.48550/arXiv.2012.12509",
+    "10.48550/arXiv.2401.13714",
+    "10.48550/arXiv.2306.02094",
+    "10.48550/arXiv.2211.09788",
+    "10.48550/arXiv.2303.09061",
+    "10.48550/arXiv.1711.00146",
+    "10.48550/arXiv.2105.11095",
+    "10.48550/arXiv.2106.06351",
+    "10.48550/arXiv.2308.06739",
+    "10.48550/arXiv.2304.14396",
+    "10.48550/arXiv.2201.02052",
+    "10.1561/116.00000057"
+  ]
+}
+
+// 목데이터 - mock data (sample data)
+[
+  {
+    "image": "voc_0001.jpg",
+    "mask": "voc_0001_mask.png",
+    "objects": [
+      { "class": "person", "class_id": 15 },
+      { "class": "dog", "class_id": 12 }
+    ]
+  },
+  {
+    "image": "voc_0002.jpg",
+    "mask": "voc_0002_mask.png",
+    "objects": [
+      { "class": "bicycle", "class_id": 2 },
+      { "class": "car", "class_id": 7 },
+      { "class": "person", "class_id": 15 }
+    ]
+  },
+  {
+    "image": "voc_0003.jpg",
+    "mask": "voc_0003_mask.png",
+    "objects": [
+      { "class": "aeroplane", "class_id": 1 },
+      { "class": "person", "class_id": 15 }
+    ]
+  },
+  {
+    "image": "voc_0004.jpg",
+    "mask": "voc_0004_mask.png",
+    "objects": [
+      { "class": "cat", "class_id": 8 }
+    ]
+  },
+  {
+    "image": "voc_0005.jpg",
+    "mask": "voc_0005_mask.png",
+    "objects": [
+      { "class": "bus", "class_id": 6 },
+      { "class": "person", "class_id": 15 }
+    ]
+  }
+]

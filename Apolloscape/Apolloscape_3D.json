@@ -1,0 +1,51 @@
+// 3D 바운딩 박스 기반 Apolloscape 데이터셋
+// 3D 위치 정보와 시간 흐름에 따른 움직임 예측
+// 보행자/차량의 공간적 인식 및 3차원 바운딩 박스 기반 예측에 적합한 구성
+// 3D 객체 감지 + 시간적 위치 예측이 주목적인 데이터셋
+
+// 참고 사이트 :https://service.tib.eu/ldmservice/dataset/apolloscape-dataset-for-autonomous-driving/resource/4f768f53-ca40-4d9a-98e2-bc05899a4505
+
+{
+  "dcterms:title": "Apolloscape Dataset for Autonomous Driving",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Xinyu Huang",
+    "Xinjing Cheng",
+    "Qichuan Geng",
+    "Binbin Cao",
+    "Dingfu Zhou",
+    "Peng Wang",
+    "Yuanqing Lin",
+    "Ruigang Yang"
+  ],
+  "dcterms:description": "The Apolloscape dataset is a large-scale dataset for autonomous driving, containing 75 scenarios with 10 Hz sampling frequency.",
+  "dcterms:issued": "2018",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://arxiv.org/abs/1805.08493",
+  "dcat:theme": [
+    "Trajectory Prediction",
+    "3D Perception",
+    "Autonomous Driving"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "Trajectory Prediction",
+    "Apolloscape",
+    "3D Perception",
+    "Autonomous Driving"
+  ],
+  "dcat:landingPage": "https://arxiv.org/abs/1805.08493",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Text",
+  "mls:task": [
+    "Trajectory Prediction",
+    "3D Perception",
+    "Autonomous Driving"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2004.05966",
+    "10.48550/arXiv.2201.05057"
+  ]
+}

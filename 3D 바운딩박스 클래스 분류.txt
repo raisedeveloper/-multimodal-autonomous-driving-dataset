@@ -1,0 +1,10 @@
+# 분류 종류 3가지
+1. 3D 바운딩박스 클래스 분류									
+2. 2D 바운딩박스 클래스 분류							
+3. 2D Semantic Segmentation 클래스 분류			
+
+# 1. 실데이터를 넣었으면 참고 사이트 주소 첨부
+# 2. 목데이터를 넣었으면 참고 사이트 내 실데이터가 없는 경우
+
+# 첨부 사이트 : https://service.tib.eu/ldmservice/dataset/?q=&sort=score+desc%2C+metadata_modified+desc
+# 첨부 사이트 >> 자율주행 관련 json 가공 데이터 보유

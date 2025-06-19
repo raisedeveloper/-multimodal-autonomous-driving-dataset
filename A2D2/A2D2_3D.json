@@ -1,0 +1,48 @@
+// A2D2 3D 바운딩 박스
+//LiDAR 포인트 클라우드 위에 차량, 트럭, 자전거 등의 객체를 3D 박스로 표현
+// 각 객체는 클래스, 위치(center), 크기(size), 방향(rotation) 등의 속성을 포함
+
+// 목데이터 - mock data (sample data)
+
+[
+  {
+    "id": 1,
+    "class": "car",
+    "center": [12.3, -4.5, 0.7],
+    "size": [4.2, 1.8, 1.6],
+    "rotation_y": 1.57,
+    "confidence": 0.98
+  },
+  {
+    "id": 2,
+    "class": "truck",
+    "center": [8.9, 2.3, 0.9],
+    "size": [6.5, 2.5, 2.8],
+    "rotation_y": -0.78,
+    "confidence": 0.92
+  },
+  {
+    "id": 3,
+    "class": "bicycle",
+    "center": [3.2, -6.1, 0.4],
+    "size": [1.7, 0.6, 1.5],
+    "rotation_y": 0.3,
+    "confidence": 0.87
+  },
+  {
+    "id": 4,
+    "class": "person",
+    "center": [-1.1, 5.7, 0.0],
+    "size": [0.8, 0.6, 1.8],
+    "rotation_y": 2.1,
+    "confidence": 0.93
+  },
+  {
+    "id": 5,
+    "class": "van",
+    "center": [6.5, -3.9, 0.8],
+    "size": [5.0, 2.0, 2.2],
+    "rotation_y": 1.2,
+    "confidence": 0.95
+  }
+]

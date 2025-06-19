@@ -1,0 +1,48 @@
+// IDD - Indian Driving Dataset 2D 기반 객체 탐지 및 시맨틱 세그멘테이션용 데이터셋
+// 2D 이미지 기반의 객체 탐지(Object Detection) 및 시맨틱 세그멘테이션(Semantic Segmentation) 데이터셋
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/idd/resource/5e9e3900-17ac-41a0-9f10-3c6b232b0a54
+
+{
+  "dcterms:title": "IDD",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Dongwan Kim",
+    "Yi-Hsuan Tsai",
+    "Yumin Suh",
+    "Masoud Faraki",
+    "Sparsh Garg",
+    "Manmohan Chandraker",
+    "Bohyung Han"
+  ],
+  "dcterms:description": "IDD dataset for Indian Road Scenarios contains 10K frames from 180 videos.",
+  "dcterms:issued": "2019",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://www.idd-dataset.com/",
+  "dcat:theme": [
+    "Object Detection",
+    "Semantic Segmentation",
+    "Indian Roads"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "semantic segmentation",
+    "object detection",
+    "Image Dataset",
+    "autonomous driving",
+    "Indian Roads"
+  ],
+  "dcat:landingPage": "https://www.idd-dataset.com/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Image",
+  "mls:task": [
+    "Object Detection",
+    "Semantic Segmentation"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2211.07916",
+    "10.48550/arXiv.2202.14030"
+  ]
+}

@@ -1,0 +1,49 @@
+// 2D Semantic Segmentation
+// "pixel-level annotations", "semantic segmentation", **"lane and road markings"**이라는 키워드가 명시
+// 라벨링 방식이 각 픽셀에 레이블을 부여하는 형태 -> 2D semantic segmentation의 전형적인 방식
+// 35종의 차선 및 도로 마킹 클래스로 구성되어 있어 클래스 기반 픽셀 세분화 작업에 최적화
+// 이미지의 각 픽셀에 분류(label)를 부여하는 2D Semantic Segmentation
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/apolloscape-lane-segmentation-dataset/resource/9562b85a-fdde-40d9-8de2-ee4e90fbf820
+
+{
+  "dcterms:title": "ApolloScape Lane Segmentation Dataset",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Marius Cordts",
+    "Mohamed Omran",
+    "Sebastian Ramos",
+    "Timo Rehfeld",
+    "Markus Enzweiler",
+    "Rodrigo Benenson",
+    "Uwe Franke",
+    "Stefan Roth",
+    "Bernt Schiele"
+  ],
+  "dcterms:description": "The ApolloScape dataset for lane segmentation contains more than 110,000 frames with high quality pixel-level annotations, including 35 kinds of lane and road markings from daily traffic scenarios.",
+  "dcterms:issued": "2018",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://arxiv.org/abs/1803.06184",
+  "dcat:theme": [
+    "Lane Segmentation",
+    "Road Marking Detection"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "lane markings",
+    "semantic segmentation",
+    "pixel-level annotations"
+  ],
+  "dcat:landingPage": "https://arxiv.org/abs/1803.06184",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "",
+  "mls:task": [
+    "Semantic Segmentation",
+    "Lane Detection"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2003.08550"
+  ]
+}

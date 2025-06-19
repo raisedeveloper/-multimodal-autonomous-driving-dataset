@@ -1,0 +1,40 @@
+// 3D 기반의 자율주행용 객체 검출 및 추적 데이터셋
+// 3D 바운딩박스 기반 객체 검출/추적용 데이터셋
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/h3d-dataset/resource/71ca8ab0-0d31-4541-a9df-03a84aaf54bf
+
+{
+  "dcterms:title": "H3D Dataset",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Abhishek Patil",
+    "Srikanth Malla",
+    "Haiming Gang",
+    "Yi-Ting Chen"
+  ],
+  "dcterms:description": "The H3D dataset for full-surround 3D multi-object detection and tracking in crowded urban scenes.",
+  "dcterms:issued": "2019",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://doi.org/10.1109/ICRA.2019.8799119",
+  "dcat:theme": [
+    "Multi-Object Tracking",
+    "3D Object Detection"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "multi-object tracking",
+    "3D object detection"
+  ],
+  "dcat:landingPage": "https://doi.org/10.1109/ICRA.2019.8799119",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Text",
+  "mls:task": [
+    "Multi-Object Tracking",
+    "3D Object Detection"
+  ],
+  "datacite:isDescribedBy": [
+    "10.1145/3581783.3611936"
+  ]
+}

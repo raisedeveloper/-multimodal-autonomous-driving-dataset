@@ -1,0 +1,61 @@
+// nuScenes 2D Semantic Segmentation 데이터셋 특징 (데이터셋 상황 가정 기반)
+// RGB 카메라 이미지에 대해 픽셀 단위 객체 클래스를 할당하는 방식
+// 자율주행 상황을 고려하여 다양한 시간대, 날씨, 도시 환경에서 촬영된 데이터가 포함
+// 6대의 카메라 영상으로부터 시야 확보가 넓음
+
+// 실제 nuScenes에서 사용하는 클래스 일부를 기반으로 제작
+// 픽셀 레벨 마스크 ID 기반의 분할을 의미
+
+// 목데이터 - mock data (sample data)
+[
+  {
+    "file_name": "scene-001_front.png",
+    "width": 1600,
+    "height": 900,
+    "annotations": [
+      { "label": "car", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "building", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "scene-002_left.png",
+    "width": 1600,
+    "height": 900,
+    "annotations": [
+      { "label": "pedestrian", "mask_id": 1 },
+      { "label": "sidewalk", "mask_id": 2 },
+      { "label": "traffic light", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "scene-003_right.png",
+    "width": 1600,
+    "height": 900,
+    "annotations": [
+      { "label": "bus", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "vegetation", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "scene-004_back.png",
+    "width": 1600,
+    "height": 900,
+    "annotations": [
+      { "label": "truck", "mask_id": 1 },
+      { "label": "pole", "mask_id": 2 },
+      { "label": "sidewalk", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "scene-005_front.png",
+    "width": 1600,
+    "height": 900,
+    "annotations": [
+      { "label": "motorcycle", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "building", "mask_id": 3 }
+    ]
+  }
+]

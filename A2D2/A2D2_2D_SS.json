@@ -1,0 +1,59 @@
+// A2D2 2D Semantic Segmentation Mock Data
+// A2D2는 독일 도로에서 촬영된 자율주행용 이미지 데이터
+// 총 38가지 클래스의 픽셀 단위 라벨이 존재하며 차량, 차선, 보행자, 건물, 신호등 등을 포함
+// 전·후방 및 측면 카메라 이미지와 정밀한 라벨링이 결합 -> 2D semantic segmentation 모델 학습에 적합
+
+// 목데이터 - mock data (sample data)
+
+[
+  {
+    "file_name": "a2d2_scene_0001_cam_front.png",
+    "width": 2048,
+    "height": 1024,
+    "annotations": [
+      { "label": "car", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "lane_marking", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "a2d2_scene_0002_cam_left.png",
+    "width": 2048,
+    "height": 1024,
+    "annotations": [
+      { "label": "pedestrian", "mask_id": 1 },
+      { "label": "sidewalk", "mask_id": 2 },
+      { "label": "traffic_sign", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "a2d2_scene_0003_cam_rear.png",
+    "width": 2048,
+    "height": 1024,
+    "annotations": [
+      { "label": "truck", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "building", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "a2d2_scene_0004_cam_right.png",
+    "width": 2048,
+    "height": 1024,
+    "annotations": [
+      { "label": "bus", "mask_id": 1 },
+      { "label": "vegetation", "mask_id": 2 },
+      { "label": "fence", "mask_id": 3 }
+    ]
+  },
+  {
+    "file_name": "a2d2_scene_0005_cam_front_right.png",
+    "width": 2048,
+    "height": 1024,
+    "annotations": [
+      { "label": "motorcycle", "mask_id": 1 },
+      { "label": "road", "mask_id": 2 },
+      { "label": "pole", "mask_id": 3 }
+    ]
+  }
+]

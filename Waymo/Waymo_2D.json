@@ -1,0 +1,134 @@
+//Waymo Open Dataset의 2D Tracking Challenge에 해당, Waymo의 2D 데이터셋으로 분류
+// 포맷: 2D 바운딩 박스 + 트래킹 ID (Object Tracking) / 형식: Image (2D RGB 이미지 기반)
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/waymo-open-dataset-2d-tracking-challenge/resource/e5eadef9-b0bf-4371-bb6d-898d8d51cbc4
+
+{
+  "dcterms:title": "Waymo Open Dataset 2D Tracking challenge",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Anish Muthali",
+    "Forrest Laine",
+    "Claire Tomlin"
+  ],
+  "dcterms:description": "Object tracking methods rely on measurement error models, typically in the form of measurement noise, false positive rates, and missed detection rates.",
+  "dcterms:issued": "2020",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://waymo.com/open-dataset/",
+  "dcat:theme": [
+    "Object Tracking"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "Tracking performance",
+    "2D tracking",
+    "Object detection"
+  ],
+  "dcat:landingPage": "https://waymo.com/open-dataset/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Image",
+  "mls:task": [
+    "Object Tracking"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2109.10521"
+  ]
+}
+
+// 목데이터 - mock data (sample data)
+// 실제 프레임을 구성하는 JSON 구조를 모사하며, 클래스, 바운딩 박스 좌표, 추적 ID 등이 포함
+// 2D 객체 검출 (Object Detection), 트래킹 (Tracking), 학습용 어노테이션 시뮬레이션
+
+[
+  {
+    "frame_id": "camera_front_000001",
+    "timestamp": 1653024800000000,
+    "width": 1920,
+    "height": 1280,
+    "objects": [
+      {
+        "id": "obj_001",
+        "type": "Vehicle",
+        "bbox": [740.0, 420.0, 880.0, 570.0],
+        "tracking_id": "veh_101",
+        "score": 0.97
+      }
+    ]
+  },
+  {
+    "frame_id": "camera_front_000002",
+    "timestamp": 1653024800330000,
+    "width": 1920,
+    "height": 1280,
+    "objects": [
+      {
+        "id": "obj_002",
+        "type": "Pedestrian",
+        "bbox": [1000.0, 450.0, 1050.0, 580.0],
+        "tracking_id": "ped_102",
+        "score": 0.92
+      },
+      {
+        "id": "obj_003",
+        "type": "Vehicle",
+        "bbox": [720.0, 400.0, 860.0, 560.0],
+        "tracking_id": "veh_101",
+        "score": 0.95
+      }
+    ]
+  },
+  {
+    "frame_id": "camera_front_000003",
+    "timestamp": 1653024800660000,
+    "width": 1920,
+    "height": 1280,
+    "objects": [
+      {
+        "id": "obj_004",
+        "type": "Cyclist",
+        "bbox": [600.0, 410.0, 690.0, 550.0],
+        "tracking_id": "cyc_103",
+        "score": 0.88
+      }
+    ]
+  },
+  {
+    "frame_id": "camera_front_000004",
+    "timestamp": 1653024800990000,
+    "width": 1920,
+    "height": 1280,
+    "objects": [
+      {
+        "id": "obj_005",
+        "type": "Traffic light",
+        "bbox": [1300.0, 300.0, 1330.0, 360.0],
+        "tracking_id": "tl_104",
+        "score": 0.90
+      },
+      {
+        "id": "obj_006",
+        "type": "Vehicle",
+        "bbox": [750.0, 430.0, 890.0, 580.0],
+        "tracking_id": "veh_105",
+        "score": 0.96
+      }
+    ]
+  },
+  {
+    "frame_id": "camera_front_000005",
+    "timestamp": 1653024801320000,
+    "width": 1920,
+    "height": 1280,
+    "objects": [
+      {
+        "id": "obj_007",
+        "type": "Pedestrian",
+        "bbox": [1020.0, 460.0, 1070.0, 590.0],
+        "tracking_id": "ped_106",
+        "score": 0.91
+      }
+    ]
+  }
+]

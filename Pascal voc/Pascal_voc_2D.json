@@ -1,0 +1,101 @@
+// 2D 기반 객체 인식 및 분할 데이터셋
+// 2D 객체 탐지, 분류, 세그멘테이션을 위한 대표적인 고전적 데이터셋
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/pascal-voc/resource/720f8e00-7541-49de-a4b9-1e757b23d4aa
+
+{
+  "dcterms:title": "Pascal VOC",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Mark Everingham",
+    "Luc Van Gool",
+    "Christopher KI Williams",
+    "John Winn",
+    "Andrew Zisserman"
+  ],
+  "dcterms:description": "Semantic segmentation is a crucial and challenging task for image understanding. It aims to predict a dense labeling map for the input image, which assigns each pixel a unique category label.",
+  "dcterms:issued": "2010",
+  "dcterms:language": "English",
+  "dcterms:identifier": "http://host.robots.ox.ac.uk/pascal/VOC/2007/",
+  "dcat:theme": [
+    "Image Classiﬁcation",
+    "Object Detection",
+    "3D Reconstruction",
+    "Semantic Segmentation",
+    "Object Segmentation",
+    "Image Classification",
+    "Instance Segmentation",
+    "Computer Vision",
+    "Semantic Communication",
+    "Image classification",
+    "Image Segmentation",
+    "Object detection"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "object detection",
+    "Instance Segmentation",
+    "image classification",
+    "semantic communication",
+    "instance segmentation",
+    "image transmission",
+    "Image Classification",
+    "image labeling",
+    "Dataset",
+    "Semantic Segmentation",
+    "image segmentation",
+    "20 Classes",
+    "3D reconstruction",
+    "articulated objects",
+    "benchmark",
+    "Pascal VOC",
+    "VOC",
+    "Object Detection",
+    "Image Processing",
+    "semantic segmentation",
+    "Image classification",
+    "Image Segmentation",
+    "Image Dataset",
+    "Object detection",
+    "object segmentation"
+  ],
+  "dcat:landingPage": "https://www.pascal-voc.org/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Image",
+  "mls:task": [
+    "Object Detection",
+    "3D Reconstruction",
+    "Semantic Segmentation",
+    "Object Segmentation",
+    "Image Classification",
+    "Instance Segmentation",
+    "Semantic Communication",
+    "Image classification",
+    "Image Segmentation",
+    "Object detection"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.1903.04688",
+    "10.48550/arXiv.2301.13670",
+    "10.48550/arXiv.2401.04403",
+    "10.48550/arXiv.2310.00527",
+    "10.48550/arXiv.2304.12161",
+    "10.48550/arXiv.2103.15383",
+    "10.48550/arXiv.2211.12739",
+    "10.48550/arXiv.2312.12437",
+    "10.48550/arXiv.1909.12526",
+    "10.48550/arXiv.2012.12509",
+    "10.48550/arXiv.2401.13714",
+    "10.48550/arXiv.2306.02094",
+    "10.48550/arXiv.2211.09788",
+    "10.48550/arXiv.2303.09061",
+    "10.48550/arXiv.1711.00146",
+    "10.48550/arXiv.2105.11095",
+    "10.48550/arXiv.2106.06351",
+    "10.48550/arXiv.2308.06739",
+    "10.48550/arXiv.2304.14396",
+    "10.48550/arXiv.2201.02052",
+    "10.1561/116.00000057"
+  ]
+}

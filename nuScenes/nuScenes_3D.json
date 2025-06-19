@@ -1,0 +1,43 @@
+// 일반적인 3D 객체 탐지(Object Detection) 및 Occupancy Prediction
+// → "이 위치에 차량/보행자가 있을 확률은?"
+// → LiDAR 기반의 3D 바운딩박스 중심 구조
+// 2023 버전 (당신이 방금 보여준 것)
+// → 일반적인 3D 객체 탐지에 Occupancy 개념을 결합한 초기 시도.
+// → 차량, 보행자 등의 객체가 존재할 확률을 예측.
+// 주요목적 : 3D 객체 탐지, Occupancy 예측 (베이스는 Detection)
+
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/occ3d-nuscenes/resource/05ddd8ba-adce-4597-9343-10ef17fcb17a
+{
+  "dcterms:title": "Occ3D-nuScenes",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Yulin He",
+    "Wei Chen",
+    "Tianci Xun",
+    "Yusong Tan"
+  ],
+  "dcterms:description": "Occupancy prediction plays a pivotal role in au-",
+  "dcterms:issued": "2023",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://arxiv.org/abs/2304.14365",
+  "dcat:theme": [
+    "Object Detection",
+    "3D Object Detection",
+    "Computer Vision"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "Occupancy Prediction",
+    "Computer Vision",
+    "3D Occupancy Prediction"
+  ],
+  "dcat:landingPage": "https://arxiv.org/abs/2304.14365",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Text",
+  "mls:task": [
+    "Object Detection",
+    "3D Object Detection"
+  ]
+}

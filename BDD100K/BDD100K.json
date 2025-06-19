@@ -1,0 +1,49 @@
+// 2D 기반의 자율주행 영상 데이터셋
+// 2D 중심의 객체 인식, 분할, 추적, 장면 이해 등 다양한 태스크를 지원하는 대규모 자율주행 데이터셋
+// 참고 사이트 : https://service.tib.eu/ldmservice/dataset/bdd100k-dataset/resource/4916c4d9-4466-421a-8a7c-161c26010766
+
+{
+  "dcterms:title": "BDD100K Dataset",
+  "dcterms:accessRights": "",
+  "dcterms:creator": [
+    "Yu F",
+    "Xian W",
+    "Chen Y",
+    "Liao M",
+    "Madhavan V",
+    "Darrell T"
+  ],
+  "dcterms:description": "BDD100K Dataset is a large-scale dataset for autonomous driving, containing 100,000 images, with 20,000 images for training and 80,000 images for testing.",
+  "dcterms:issued": "2018",
+  "dcterms:language": "English",
+  "dcterms:identifier": "https://ai.stanford.edu/~yu/freeway/BDD100K/",
+  "dcat:theme": [
+    "Video Analysis",
+    "Autonomous Driving",
+    "Driving Scene Understanding",
+    "Image Segmentation"
+  ],
+  "dcterms:type": [
+    "Dataset"
+  ],
+  "dcat:keyword": [
+    "Object Detection",
+    "image segmentation",
+    "Driving Scenes",
+    "Video Analysis",
+    "autonomous driving",
+    "3D scene understanding"
+  ],
+  "dcat:landingPage": "https://ai.stanford.edu/~yu/freeway/BDD100K/",
+  "dcterms:hasVersion": "",
+  "dcterms:format": "Video",
+  "mls:task": [
+    "Video Analysis",
+    "Object Detection",
+    "Image Segmentation",
+    "3D Scene Understanding"
+  ],
+  "datacite:isDescribedBy": [
+    "10.48550/arXiv.2207.03870"
+  ]
+}

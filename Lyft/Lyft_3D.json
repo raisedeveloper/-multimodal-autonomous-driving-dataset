@@ -1,0 +1,48 @@
+// Lyft 3D 바운딩박스 데이터셋
+// 자율주행차의 센서(LiDAR, 카메라)를 기반으로 차량, 보행자 등의 3D 위치와 크기, 방향을 바운딩 박스로 제공
+// 각 객체는 프레임 기준으로 center, dimensions, rotation_yaw, class_label, score 등의 필드를 포함한 형식
+
+// 목데이터 - mock data (sample data)
+
+[
+  {
+    "sample_id": "000001",
+    "center": [34.5, 12.2, -1.3],
+    "dimensions": [4.8, 2.0, 1.6],  // length, width, height
+    "rotation_yaw": 1.57,
+    "class_label": "car",
+    "score": 0.98
+  },
+  {
+    "sample_id": "000002",
+    "center": [28.7, 15.4, -1.2],
+    "dimensions": [0.6, 0.6, 1.7],
+    "rotation_yaw": -0.2,
+    "class_label": "pedestrian",
+    "score": 0.92
+  },
+  {
+    "sample_id": "000003",
+    "center": [45.0, 18.0, -1.4],
+    "dimensions": [2.0, 0.8, 1.5],
+    "rotation_yaw": 0.45,
+    "class_label": "bicycle",
+    "score": 0.88
+  },
+  {
+    "sample_id": "000004",
+    "center": [38.3, 20.1, -1.3],
+    "dimensions": [5.2, 2.2, 2.5],
+    "rotation_yaw": 3.14,
+    "class_label": "truck",
+    "score": 0.95
+  },
+  {
+    "sample_id": "000005",
+    "center": [31.7, 14.8, -1.2],
+    "dimensions": [4.5, 1.9, 1.6],
+    "rotation_yaw": 0.0,
+    "class_label": "car",
+    "score": 0.90
+  }
+]
